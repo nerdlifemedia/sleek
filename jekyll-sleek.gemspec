@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-sleek"
-  spec.version       = "0.1.3"
-  spec.authors       = ["Jan Czizikow"]
-  spec.email         = ["jan.czizikow@gmail.com"]
+  spec.name          = "nerdlife-sleek"
+  spec.version       = "0.1.4"
+  spec.authors       = ["NerdLife Media"]
+  spec.email         = ["johnrlive@gmail.com"]
 
   spec.summary       = %q{Sleek is a modern Jekyll theme focused on speed performance & SEO best practices.}
-  spec.homepage      = "https://janczizikow.github.io/sleek/"
+  spec.homepage      = "https://agitated-goldwasser-8721d4.netlify.com/"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select do |f|
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   end
 
   spec.platform      = Gem::Platform::RUBY
-  spec.add_runtime_dependency "jekyll", "~> 3.6"
+  spec.add_runtime_dependency "jekyll", "~> 3.8"
   spec.add_runtime_dependency "jekyll-seo-tag", "~> 2.3"
   spec.add_runtime_dependency "jekyll-sitemap", "~> 1.1"
 
